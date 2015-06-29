@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0A3462B1A340752005F3A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A3462A1A340752005F3A09 /* Foundation.framework */; };
+		A0A3462D1A340752005F3A09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A3462C1A340752005F3A09 /* CoreGraphics.framework */; };
+		A0A3462F1A340752005F3A09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A3462E1A340752005F3A09 /* UIKit.framework */; };
+		A0A346351A340752005F3A09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0A346331A340752005F3A09 /* InfoPlist.strings */; };
+		A0A346371A340752005F3A09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A346361A340752005F3A09 /* main.m */; };
+		A0A3463B1A340752005F3A09 /* WJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A3463A1A340752005F3A09 /* WJAppDelegate.m */; };
+		A0A3463E1A340752005F3A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A3463C1A340752005F3A09 /* Main.storyboard */; };
+		A0A346411A340752005F3A09 /* WJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A346401A340752005F3A09 /* WJViewController.m */; };
+		A0A346431A340752005F3A09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A346421A340752005F3A09 /* Images.xcassets */; };
+		A0A3464A1A340752005F3A09 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A346491A340752005F3A09 /* XCTest.framework */; };
+		A0A3464B1A340752005F3A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A3462A1A340752005F3A09 /* Foundation.framework */; };
+		A0A3464C1A340752005F3A09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A3462E1A340752005F3A09 /* UIKit.framework */; };
+		A0A346541A340752005F3A09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0A346521A340752005F3A09 /* InfoPlist.strings */; };
+		A0A346561A340752005F3A09 /* _1_PickerView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A346551A340752005F3A09 /* _1_PickerView____Tests.m */; };
+		A0A346601A3407BF005F3A09 /* foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0A3465F1A3407BF005F3A09 /* foods.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0A3464D1A340752005F3A09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0A3461F1A340752005F3A09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0A346261A340752005F3A09;
+			remoteInfo = "01-PickerView点菜系统";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0A346271A340752005F3A09 /* 01-PickerView点菜系统.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-PickerView点菜系统.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A3462A1A340752005F3A09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0A3462C1A340752005F3A09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0A3462E1A340752005F3A09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0A346321A340752005F3A09 /* 01-PickerView点菜系统-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01-PickerView点菜系统-Info.plist"; sourceTree = "<group>"; };
+		A0A346341A340752005F3A09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0A346361A340752005F3A09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0A346381A340752005F3A09 /* 01-PickerView点菜系统-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "01-PickerView点菜系统-Prefix.pch"; sourceTree = "<group>"; };
+		A0A346391A340752005F3A09 /* WJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJAppDelegate.h; sourceTree = "<group>"; };
+		A0A3463A1A340752005F3A09 /* WJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJAppDelegate.m; sourceTree = "<group>"; };
+		A0A3463D1A340752005F3A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0A3463F1A340752005F3A09 /* WJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJViewController.h; sourceTree = "<group>"; };
+		A0A346401A340752005F3A09 /* WJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJViewController.m; sourceTree = "<group>"; };
+		A0A346421A340752005F3A09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0A346481A340752005F3A09 /* 01-PickerView点菜系统Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-PickerView点菜系统Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A346491A340752005F3A09 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A0A346511A340752005F3A09 /* 01-PickerView点菜系统Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01-PickerView点菜系统Tests-Info.plist"; sourceTree = "<group>"; };
+		A0A346531A340752005F3A09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0A346551A340752005F3A09 /* _1_PickerView____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_PickerView____Tests.m"; sourceTree = "<group>"; };
+		A0A3465F1A3407BF005F3A09 /* foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foods.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0A346241A340752005F3A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A3462D1A340752005F3A09 /* CoreGraphics.framework in Frameworks */,
+				A0A3462F1A340752005F3A09 /* UIKit.framework in Frameworks */,
+				A0A3462B1A340752005F3A09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A346451A340752005F3A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A3464A1A340752005F3A09 /* XCTest.framework in Frameworks */,
+				A0A3464C1A340752005F3A09 /* UIKit.framework in Frameworks */,
+				A0A3464B1A340752005F3A09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0A3461E1A340752005F3A09 = {
+			isa = PBXGroup;
+			children = (
+				A0A346301A340752005F3A09 /* 01-PickerView点菜系统 */,
+				A0A3464F1A340752005F3A09 /* 01-PickerView点菜系统Tests */,
+				A0A346291A340752005F3A09 /* Frameworks */,
+				A0A346281A340752005F3A09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0A346281A340752005F3A09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0A346271A340752005F3A09 /* 01-PickerView点菜系统.app */,
+				A0A346481A340752005F3A09 /* 01-PickerView点菜系统Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0A346291A340752005F3A09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0A3462A1A340752005F3A09 /* Foundation.framework */,
+				A0A3462C1A340752005F3A09 /* CoreGraphics.framework */,
+				A0A3462E1A340752005F3A09 /* UIKit.framework */,
+				A0A346491A340752005F3A09 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0A346301A340752005F3A09 /* 01-PickerView点菜系统 */ = {
+			isa = PBXGroup;
+			children = (
+				A0A346391A340752005F3A09 /* WJAppDelegate.h */,
+				A0A3463A1A340752005F3A09 /* WJAppDelegate.m */,
+				A0A3463C1A340752005F3A09 /* Main.storyboard */,
+				A0A3463F1A340752005F3A09 /* WJViewController.h */,
+				A0A346401A340752005F3A09 /* WJViewController.m */,
+				A0A346421A340752005F3A09 /* Images.xcassets */,
+				A0A346311A340752005F3A09 /* Supporting Files */,
+			);
+			path = "01-PickerView点菜系统";
+			sourceTree = "<group>";
+		};
+		A0A346311A340752005F3A09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0A3465F1A3407BF005F3A09 /* foods.plist */,
+				A0A346321A340752005F3A09 /* 01-PickerView点菜系统-Info.plist */,
+				A0A346331A340752005F3A09 /* InfoPlist.strings */,
+				A0A346361A340752005F3A09 /* main.m */,
+				A0A346381A340752005F3A09 /* 01-PickerView点菜系统-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0A3464F1A340752005F3A09 /* 01-PickerView点菜系统Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A0A346551A340752005F3A09 /* _1_PickerView____Tests.m */,
+				A0A346501A340752005F3A09 /* Supporting Files */,
+			);
+			path = "01-PickerView点菜系统Tests";
+			sourceTree = "<group>";
+		};
+		A0A346501A340752005F3A09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0A346511A340752005F3A09 /* 01-PickerView点菜系统Tests-Info.plist */,
+				A0A346521A340752005F3A09 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0A346261A340752005F3A09 /* 01-PickerView点菜系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A346591A340752005F3A09 /* Build configuration list for PBXNativeTarget "01-PickerView点菜系统" */;
+			buildPhases = (
+				A0A346231A340752005F3A09 /* Sources */,
+				A0A346241A340752005F3A09 /* Frameworks */,
+				A0A346251A340752005F3A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-PickerView点菜系统";
+			productName = "01-PickerView点菜系统";
+			productReference = A0A346271A340752005F3A09 /* 01-PickerView点菜系统.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0A346471A340752005F3A09 /* 01-PickerView点菜系统Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A3465C1A340752005F3A09 /* Build configuration list for PBXNativeTarget "01-PickerView点菜系统Tests" */;
+			buildPhases = (
+				A0A346441A340752005F3A09 /* Sources */,
+				A0A346451A340752005F3A09 /* Frameworks */,
+				A0A346461A340752005F3A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0A3464E1A340752005F3A09 /* PBXTargetDependency */,
+			);
+			name = "01-PickerView点菜系统Tests";
+			productName = "01-PickerView点菜系统Tests";
+			productReference = A0A346481A340752005F3A09 /* 01-PickerView点菜系统Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0A3461F1A340752005F3A09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sias;
+				TargetAttributes = {
+					A0A346471A340752005F3A09 = {
+						TestTargetID = A0A346261A340752005F3A09;
+					};
+				};
+			};
+			buildConfigurationList = A0A346221A340752005F3A09 /* Build configuration list for PBXProject "01-PickerView点菜系统" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0A3461E1A340752005F3A09;
+			productRefGroup = A0A346281A340752005F3A09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0A346261A340752005F3A09 /* 01-PickerView点菜系统 */,
+				A0A346471A340752005F3A09 /* 01-PickerView点菜系统Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0A346251A340752005F3A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A346601A3407BF005F3A09 /* foods.plist in Resources */,
+				A0A346431A340752005F3A09 /* Images.xcassets in Resources */,
+				A0A346351A340752005F3A09 /* InfoPlist.strings in Resources */,
+				A0A3463E1A340752005F3A09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A346461A340752005F3A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A346541A340752005F3A09 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0A346231A340752005F3A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A346411A340752005F3A09 /* WJViewController.m in Sources */,
+				A0A346371A340752005F3A09 /* main.m in Sources */,
+				A0A3463B1A340752005F3A09 /* WJAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A346441A340752005F3A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A346561A340752005F3A09 /* _1_PickerView____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0A3464E1A340752005F3A09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0A346261A340752005F3A09 /* 01-PickerView点菜系统 */;
+			targetProxy = A0A3464D1A340752005F3A09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0A346331A340752005F3A09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A346341A340752005F3A09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0A3463C1A340752005F3A09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A3463D1A340752005F3A09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0A346521A340752005F3A09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A346531A340752005F3A09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0A346571A340752005F3A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0A346581A340752005F3A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0A3465A1A340752005F3A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-PickerView点菜系统/01-PickerView点菜系统-Prefix.pch";
+				INFOPLIST_FILE = "01-PickerView点菜系统/01-PickerView点菜系统-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0A3465B1A340752005F3A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-PickerView点菜系统/01-PickerView点菜系统-Prefix.pch";
+				INFOPLIST_FILE = "01-PickerView点菜系统/01-PickerView点菜系统-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A0A3465D1A340752005F3A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/01-PickerView点菜系统.app/01-PickerView点菜系统";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-PickerView点菜系统/01-PickerView点菜系统-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "01-PickerView点菜系统Tests/01-PickerView点菜系统Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A0A3465E1A340752005F3A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/01-PickerView点菜系统.app/01-PickerView点菜系统";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-PickerView点菜系统/01-PickerView点菜系统-Prefix.pch";
+				INFOPLIST_FILE = "01-PickerView点菜系统Tests/01-PickerView点菜系统Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0A346221A340752005F3A09 /* Build configuration list for PBXProject "01-PickerView点菜系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A346571A340752005F3A09 /* Debug */,
+				A0A346581A340752005F3A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A346591A340752005F3A09 /* Build configuration list for PBXNativeTarget "01-PickerView点菜系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A3465A1A340752005F3A09 /* Debug */,
+				A0A3465B1A340752005F3A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0A3465C1A340752005F3A09 /* Build configuration list for PBXNativeTarget "01-PickerView点菜系统Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A3465D1A340752005F3A09 /* Debug */,
+				A0A3465E1A340752005F3A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0A3461F1A340752005F3A09 /* Project object */;
+}

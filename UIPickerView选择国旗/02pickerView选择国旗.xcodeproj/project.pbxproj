@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0A3466E1A342589005F3A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A3466D1A342589005F3A09 /* Foundation.framework */; };
+		A0A346701A342589005F3A09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A3466F1A342589005F3A09 /* CoreGraphics.framework */; };
+		A0A346721A342589005F3A09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A346711A342589005F3A09 /* UIKit.framework */; };
+		A0A346781A342589005F3A09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0A346761A342589005F3A09 /* InfoPlist.strings */; };
+		A0A3467A1A342589005F3A09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A346791A342589005F3A09 /* main.m */; };
+		A0A3467E1A342589005F3A09 /* WJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A3467D1A342589005F3A09 /* WJAppDelegate.m */; };
+		A0A346811A342589005F3A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A3467F1A342589005F3A09 /* Main.storyboard */; };
+		A0A346841A342589005F3A09 /* WJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A346831A342589005F3A09 /* WJViewController.m */; };
+		A0A346861A342589005F3A09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A346851A342589005F3A09 /* Images.xcassets */; };
+		A0A3468D1A342589005F3A09 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A3468C1A342589005F3A09 /* XCTest.framework */; };
+		A0A3468E1A342589005F3A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A3466D1A342589005F3A09 /* Foundation.framework */; };
+		A0A3468F1A342589005F3A09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A346711A342589005F3A09 /* UIKit.framework */; };
+		A0A346971A342589005F3A09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0A346951A342589005F3A09 /* InfoPlist.strings */; };
+		A0A346991A342589005F3A09 /* _2pickerView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A346981A342589005F3A09 /* _2pickerView____Tests.m */; };
+		A0A346A81A3426A5005F3A09 /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0A346A71A3426A5005F3A09 /* flags.plist */; };
+		A0A346B91A3426C2005F3A09 /* agt.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0A346AA1A3426C2005F3A09 /* agt.gif */; };
+		A0A346BA1A3426C2005F3A09 /* baxi.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0A346AB1A3426C2005F3A09 /* baxi.gif */; };
+		A0A346BB1A3426C2005F3A09 /* deguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0A346AC1A3426C2005F3A09 /* deguo.gif */; };
+		A0A346BC1A3426C2005F3A09 /* faguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0A346AD1A3426C2005F3A09 /* faguo.gif */; };
+		A0A346BE1A3426C2005F3A09 /* hanguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0A346AF1A3426C2005F3A09 /* hanguo.gif */; };
+		A0A346BF1A3426C2005F3A09 /* helan.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0A346B01A3426C2005F3A09 /* helan.gif */; };
+		A0A346C01A3426C2005F3A09 /* putaoya.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0A346B11A3426C2005F3A09 /* putaoya.gif */; };
+		A0A346C11A3426C2005F3A09 /* ruidian.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0A346B21A3426C2005F3A09 /* ruidian.gif */; };
+		A0A346C21A3426C2005F3A09 /* ruishi.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0A346B31A3426C2005F3A09 /* ruishi.gif */; };
+		A0A346C31A3426C2005F3A09 /* wlgui.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0A346B41A3426C2005F3A09 /* wlgui.gif */; };
+		A0A346C41A3426C2005F3A09 /* xiby.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0A346B51A3426C2005F3A09 /* xiby.gif */; };
+		A0A346C51A3426C2005F3A09 /* ydl.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0A346B61A3426C2005F3A09 /* ydl.gif */; };
+		A0A346C61A3426C2005F3A09 /* ying.gif in Resources */ = {isa = PBXBuildFile; fileRef = A0A346B71A3426C2005F3A09 /* ying.gif */; };
+		A0A346C71A3426C2005F3A09 /* zhongguo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0A346B81A3426C2005F3A09 /* zhongguo.jpg */; };
+		A0A346CA1A3426F1005F3A09 /* WJFlag.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A346C91A3426F1005F3A09 /* WJFlag.m */; };
+		A0A346CD1A34285C005F3A09 /* WJFlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A346CC1A34285C005F3A09 /* WJFlagView.m */; };
+		A0A346CF1A34287F005F3A09 /* WJFlagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A346CE1A34287F005F3A09 /* WJFlagView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0A346901A342589005F3A09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0A346621A342589005F3A09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0A346691A342589005F3A09;
+			remoteInfo = "02pickerView选择国旗";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0A3466A1A342589005F3A09 /* 02pickerView选择国旗.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02pickerView选择国旗.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A3466D1A342589005F3A09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0A3466F1A342589005F3A09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0A346711A342589005F3A09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0A346751A342589005F3A09 /* 02pickerView选择国旗-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "02pickerView选择国旗-Info.plist"; sourceTree = "<group>"; };
+		A0A346771A342589005F3A09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0A346791A342589005F3A09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0A3467B1A342589005F3A09 /* 02pickerView选择国旗-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "02pickerView选择国旗-Prefix.pch"; sourceTree = "<group>"; };
+		A0A3467C1A342589005F3A09 /* WJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJAppDelegate.h; sourceTree = "<group>"; };
+		A0A3467D1A342589005F3A09 /* WJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJAppDelegate.m; sourceTree = "<group>"; };
+		A0A346801A342589005F3A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0A346821A342589005F3A09 /* WJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJViewController.h; sourceTree = "<group>"; };
+		A0A346831A342589005F3A09 /* WJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJViewController.m; sourceTree = "<group>"; };
+		A0A346851A342589005F3A09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0A3468B1A342589005F3A09 /* 02pickerView选择国旗Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02pickerView选择国旗Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A3468C1A342589005F3A09 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A0A346941A342589005F3A09 /* 02pickerView选择国旗Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "02pickerView选择国旗Tests-Info.plist"; sourceTree = "<group>"; };
+		A0A346961A342589005F3A09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0A346981A342589005F3A09 /* _2pickerView____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2pickerView____Tests.m"; sourceTree = "<group>"; };
+		A0A346A71A3426A5005F3A09 /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = flags.plist; path = "../../../../../../../../Volumes/Untitled 3/My___学习资料/iOS/2014传智IOS/0407/代码/03-PickerView03-选择国旗/03-PickerView03-选择国旗/guoqi/flags.plist"; sourceTree = "<group>"; };
+		A0A346AA1A3426C2005F3A09 /* agt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = agt.gif; sourceTree = "<group>"; };
+		A0A346AB1A3426C2005F3A09 /* baxi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baxi.gif; sourceTree = "<group>"; };
+		A0A346AC1A3426C2005F3A09 /* deguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = deguo.gif; sourceTree = "<group>"; };
+		A0A346AD1A3426C2005F3A09 /* faguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = faguo.gif; sourceTree = "<group>"; };
+		A0A346AF1A3426C2005F3A09 /* hanguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hanguo.gif; sourceTree = "<group>"; };
+		A0A346B01A3426C2005F3A09 /* helan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = helan.gif; sourceTree = "<group>"; };
+		A0A346B11A3426C2005F3A09 /* putaoya.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = putaoya.gif; sourceTree = "<group>"; };
+		A0A346B21A3426C2005F3A09 /* ruidian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruidian.gif; sourceTree = "<group>"; };
+		A0A346B31A3426C2005F3A09 /* ruishi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruishi.gif; sourceTree = "<group>"; };
+		A0A346B41A3426C2005F3A09 /* wlgui.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wlgui.gif; sourceTree = "<group>"; };
+		A0A346B51A3426C2005F3A09 /* xiby.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiby.gif; sourceTree = "<group>"; };
+		A0A346B61A3426C2005F3A09 /* ydl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ydl.gif; sourceTree = "<group>"; };
+		A0A346B71A3426C2005F3A09 /* ying.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ying.gif; sourceTree = "<group>"; };
+		A0A346B81A3426C2005F3A09 /* zhongguo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhongguo.jpg; sourceTree = "<group>"; };
+		A0A346C81A3426F1005F3A09 /* WJFlag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJFlag.h; sourceTree = "<group>"; };
+		A0A346C91A3426F1005F3A09 /* WJFlag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJFlag.m; sourceTree = "<group>"; };
+		A0A346CB1A34285C005F3A09 /* WJFlagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJFlagView.h; sourceTree = "<group>"; };
+		A0A346CC1A34285C005F3A09 /* WJFlagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJFlagView.m; sourceTree = "<group>"; };
+		A0A346CE1A34287F005F3A09 /* WJFlagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WJFlagView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0A346671A342589005F3A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A346701A342589005F3A09 /* CoreGraphics.framework in Frameworks */,
+				A0A346721A342589005F3A09 /* UIKit.framework in Frameworks */,
+				A0A3466E1A342589005F3A09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A346881A342589005F3A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A3468D1A342589005F3A09 /* XCTest.framework in Frameworks */,
+				A0A3468F1A342589005F3A09 /* UIKit.framework in Frameworks */,
+				A0A3468E1A342589005F3A09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0A346611A342589005F3A09 = {
+			isa = PBXGroup;
+			children = (
+				A0A346731A342589005F3A09 /* 02pickerView选择国旗 */,
+				A0A346921A342589005F3A09 /* 02pickerView选择国旗Tests */,
+				A0A3466C1A342589005F3A09 /* Frameworks */,
+				A0A3466B1A342589005F3A09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0A3466B1A342589005F3A09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0A3466A1A342589005F3A09 /* 02pickerView选择国旗.app */,
+				A0A3468B1A342589005F3A09 /* 02pickerView选择国旗Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0A3466C1A342589005F3A09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0A3466D1A342589005F3A09 /* Foundation.framework */,
+				A0A3466F1A342589005F3A09 /* CoreGraphics.framework */,
+				A0A346711A342589005F3A09 /* UIKit.framework */,
+				A0A3468C1A342589005F3A09 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0A346731A342589005F3A09 /* 02pickerView选择国旗 */ = {
+			isa = PBXGroup;
+			children = (
+				A0A346A21A3425EE005F3A09 /* Classes */,
+				A0A346741A342589005F3A09 /* Supporting Files */,
+			);
+			path = "02pickerView选择国旗";
+			sourceTree = "<group>";
+		};
+		A0A346741A342589005F3A09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0A346A91A3426C2005F3A09 /* guoqi */,
+				A0A346A71A3426A5005F3A09 /* flags.plist */,
+				A0A3467F1A342589005F3A09 /* Main.storyboard */,
+				A0A346851A342589005F3A09 /* Images.xcassets */,
+				A0A346751A342589005F3A09 /* 02pickerView选择国旗-Info.plist */,
+				A0A346761A342589005F3A09 /* InfoPlist.strings */,
+				A0A346791A342589005F3A09 /* main.m */,
+				A0A3467B1A342589005F3A09 /* 02pickerView选择国旗-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0A346921A342589005F3A09 /* 02pickerView选择国旗Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A0A346981A342589005F3A09 /* _2pickerView____Tests.m */,
+				A0A346931A342589005F3A09 /* Supporting Files */,
+			);
+			path = "02pickerView选择国旗Tests";
+			sourceTree = "<group>";
+		};
+		A0A346931A342589005F3A09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0A346941A342589005F3A09 /* 02pickerView选择国旗Tests-Info.plist */,
+				A0A346951A342589005F3A09 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0A346A21A3425EE005F3A09 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A0A346A61A34261A005F3A09 /* Other */,
+				A0A346A51A34260C005F3A09 /* Controller */,
+				A0A346A41A342604005F3A09 /* View */,
+				A0A346A31A3425FC005F3A09 /* Model */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A0A346A31A3425FC005F3A09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0A346C81A3426F1005F3A09 /* WJFlag.h */,
+				A0A346C91A3426F1005F3A09 /* WJFlag.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A0A346A41A342604005F3A09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0A346CB1A34285C005F3A09 /* WJFlagView.h */,
+				A0A346CC1A34285C005F3A09 /* WJFlagView.m */,
+				A0A346CE1A34287F005F3A09 /* WJFlagView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A0A346A51A34260C005F3A09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0A346821A342589005F3A09 /* WJViewController.h */,
+				A0A346831A342589005F3A09 /* WJViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A0A346A61A34261A005F3A09 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A0A3467C1A342589005F3A09 /* WJAppDelegate.h */,
+				A0A3467D1A342589005F3A09 /* WJAppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		A0A346A91A3426C2005F3A09 /* guoqi */ = {
+			isa = PBXGroup;
+			children = (
+				A0A346AA1A3426C2005F3A09 /* agt.gif */,
+				A0A346AB1A3426C2005F3A09 /* baxi.gif */,
+				A0A346AC1A3426C2005F3A09 /* deguo.gif */,
+				A0A346AD1A3426C2005F3A09 /* faguo.gif */,
+				A0A346AF1A3426C2005F3A09 /* hanguo.gif */,
+				A0A346B01A3426C2005F3A09 /* helan.gif */,
+				A0A346B11A3426C2005F3A09 /* putaoya.gif */,
+				A0A346B21A3426C2005F3A09 /* ruidian.gif */,
+				A0A346B31A3426C2005F3A09 /* ruishi.gif */,
+				A0A346B41A3426C2005F3A09 /* wlgui.gif */,
+				A0A346B51A3426C2005F3A09 /* xiby.gif */,
+				A0A346B61A3426C2005F3A09 /* ydl.gif */,
+				A0A346B71A3426C2005F3A09 /* ying.gif */,
+				A0A346B81A3426C2005F3A09 /* zhongguo.jpg */,
+			);
+			name = guoqi;
+			path = "../../../../../../../../Volumes/Untitled 3/My___学习资料/iOS/2014传智IOS/0407/代码/03-PickerView03-选择国旗/03-PickerView03-选择国旗/guoqi";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0A346691A342589005F3A09 /* 02pickerView选择国旗 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A3469C1A342589005F3A09 /* Build configuration list for PBXNativeTarget "02pickerView选择国旗" */;
+			buildPhases = (
+				A0A346661A342589005F3A09 /* Sources */,
+				A0A346671A342589005F3A09 /* Frameworks */,
+				A0A346681A342589005F3A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02pickerView选择国旗";
+			productName = "02pickerView选择国旗";
+			productReference = A0A3466A1A342589005F3A09 /* 02pickerView选择国旗.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0A3468A1A342589005F3A09 /* 02pickerView选择国旗Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A3469F1A342589005F3A09 /* Build configuration list for PBXNativeTarget "02pickerView选择国旗Tests" */;
+			buildPhases = (
+				A0A346871A342589005F3A09 /* Sources */,
+				A0A346881A342589005F3A09 /* Frameworks */,
+				A0A346891A342589005F3A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0A346911A342589005F3A09 /* PBXTargetDependency */,
+			);
+			name = "02pickerView选择国旗Tests";
+			productName = "02pickerView选择国旗Tests";
+			productReference = A0A3468B1A342589005F3A09 /* 02pickerView选择国旗Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0A346621A342589005F3A09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sias;
+				TargetAttributes = {
+					A0A3468A1A342589005F3A09 = {
+						TestTargetID = A0A346691A342589005F3A09;
+					};
+				};
+			};
+			buildConfigurationList = A0A346651A342589005F3A09 /* Build configuration list for PBXProject "02pickerView选择国旗" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0A346611A342589005F3A09;
+			productRefGroup = A0A3466B1A342589005F3A09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0A346691A342589005F3A09 /* 02pickerView选择国旗 */,
+				A0A3468A1A342589005F3A09 /* 02pickerView选择国旗Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0A346681A342589005F3A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A346861A342589005F3A09 /* Images.xcassets in Resources */,
+				A0A346781A342589005F3A09 /* InfoPlist.strings in Resources */,
+				A0A346C21A3426C2005F3A09 /* ruishi.gif in Resources */,
+				A0A346C01A3426C2005F3A09 /* putaoya.gif in Resources */,
+				A0A346C11A3426C2005F3A09 /* ruidian.gif in Resources */,
+				A0A346BE1A3426C2005F3A09 /* hanguo.gif in Resources */,
+				A0A346A81A3426A5005F3A09 /* flags.plist in Resources */,
+				A0A346C61A3426C2005F3A09 /* ying.gif in Resources */,
+				A0A346C71A3426C2005F3A09 /* zhongguo.jpg in Resources */,
+				A0A346C41A3426C2005F3A09 /* xiby.gif in Resources */,
+				A0A346B91A3426C2005F3A09 /* agt.gif in Resources */,
+				A0A346CF1A34287F005F3A09 /* WJFlagView.xib in Resources */,
+				A0A346C51A3426C2005F3A09 /* ydl.gif in Resources */,
+				A0A346BA1A3426C2005F3A09 /* baxi.gif in Resources */,
+				A0A346C31A3426C2005F3A09 /* wlgui.gif in Resources */,
+				A0A346BB1A3426C2005F3A09 /* deguo.gif in Resources */,
+				A0A346811A342589005F3A09 /* Main.storyboard in Resources */,
+				A0A346BC1A3426C2005F3A09 /* faguo.gif in Resources */,
+				A0A346BF1A3426C2005F3A09 /* helan.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A346891A342589005F3A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A346971A342589005F3A09 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0A346661A342589005F3A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A346841A342589005F3A09 /* WJViewController.m in Sources */,
+				A0A3467A1A342589005F3A09 /* main.m in Sources */,
+				A0A346CA1A3426F1005F3A09 /* WJFlag.m in Sources */,
+				A0A3467E1A342589005F3A09 /* WJAppDelegate.m in Sources */,
+				A0A346CD1A34285C005F3A09 /* WJFlagView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A346871A342589005F3A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A346991A342589005F3A09 /* _2pickerView____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0A346911A342589005F3A09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0A346691A342589005F3A09 /* 02pickerView选择国旗 */;
+			targetProxy = A0A346901A342589005F3A09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0A346761A342589005F3A09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A346771A342589005F3A09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0A3467F1A342589005F3A09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A346801A342589005F3A09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0A346951A342589005F3A09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A346961A342589005F3A09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0A3469A1A342589005F3A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0A3469B1A342589005F3A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0A3469D1A342589005F3A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02pickerView选择国旗/02pickerView选择国旗-Prefix.pch";
+				INFOPLIST_FILE = "02pickerView选择国旗/02pickerView选择国旗-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0A3469E1A342589005F3A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02pickerView选择国旗/02pickerView选择国旗-Prefix.pch";
+				INFOPLIST_FILE = "02pickerView选择国旗/02pickerView选择国旗-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A0A346A01A342589005F3A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/02pickerView选择国旗.app/02pickerView选择国旗";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02pickerView选择国旗/02pickerView选择国旗-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02pickerView选择国旗Tests/02pickerView选择国旗Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A0A346A11A342589005F3A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/02pickerView选择国旗.app/02pickerView选择国旗";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02pickerView选择国旗/02pickerView选择国旗-Prefix.pch";
+				INFOPLIST_FILE = "02pickerView选择国旗Tests/02pickerView选择国旗Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0A346651A342589005F3A09 /* Build configuration list for PBXProject "02pickerView选择国旗" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A3469A1A342589005F3A09 /* Debug */,
+				A0A3469B1A342589005F3A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A3469C1A342589005F3A09 /* Build configuration list for PBXNativeTarget "02pickerView选择国旗" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A3469D1A342589005F3A09 /* Debug */,
+				A0A3469E1A342589005F3A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0A3469F1A342589005F3A09 /* Build configuration list for PBXNativeTarget "02pickerView选择国旗Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A346A01A342589005F3A09 /* Debug */,
+				A0A346A11A342589005F3A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0A346621A342589005F3A09 /* Project object */;
+}
